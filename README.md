@@ -5,40 +5,40 @@ Makine Öğrenmesi Dersi Denetimli Öğrenme (Regresyon) Raporu
 
 <hr/>
 
-### [DENETİMLİ ÖĞRENME](#denetimli-öğrenme)
-- #### [DENETİMLİ ÖĞRENME NEDİR?](#denetimli-öğrenme-nedir)
+### [DENETİMLİ ÖĞRENME](#denetimliogrenme)
+- #### [DENETİMLİ ÖĞRENME NEDİR?](#denetimliogrenmenedir)
 - #### [DENETİMLİ ÖĞRENME TARİHÇESİ](#denetimli-öğrenme-tarihçesi)
 - #### [DENETİMLİ ÖĞRENME ÖRNEKLERİ](#denetimli-öğrenme-örnekleri)
-### [REGRESYON](#regresyon-nedir)
-- #### [REGRESYON NEDİR?](#regresyon-nedir)
+### [REGRESYON](#regresyonnedir)
+- #### [REGRESYON NEDİR?](#regresyonnedir)
 - #### [MAKİNE ÖĞRENMESİNDE REGRESYON](#makine-öğrenmesinde-regresyon)
 - #### [REGRESYON ÇEŞİTLERİ](#regresyon-çeşitleri)
 - #### [BASİT DOĞRUSAL REGRESYON](#basit-doğrusal-regresyon)
   - ##### [BASİT DOĞRUSAL REGRESYON HESAPLAMALARI](#basit-doğrusal-regresyon-hesaplamaları)
-- #### [ÇOKLU REGRESYON](#çoklu-regresyon)
+- #### [ÇOKLU REGRESYON](#cokluregresyon)
   - ##### [ÇOKLU LİNEER REGRESYON MODELİ OLUŞTURMAK](#çoklu-lineer-regresyon-modeli-oluşturmak)
 - #### [REGRESYON MODELİ KURULUMUNDA 5 METOD](#regresyon-modeli-kurulumunda-5-metod)
   - ##### [GERİYE DOĞRU ELEME](#geriye-doğru-eleme)
-  - ##### [İLERİ DOĞRU SEÇME](#ileri-doğru-seçme)
-### [REGRESYON ANALİZİ](#regresyon-analizi)
-- #### [REGRESYON ANALİZİ KULLANIM ALANLARI](#regresyon-analizi-kullanım-alanları)
+  - ##### [İLERİ DOĞRU SEÇME](#ilerisecme)
+### [REGRESYON ANALİZİ](#regresyonanalizi)
+- #### [REGRESYON ANALİZİ KULLANIM ALANLARI](#regresyonkullanim)
 - #### [REGRESYON ANALİZİ HANGİ SEKTÖRLERDE VAR](#regresyon-analizi-hangi-sektörlerde-var)
   - #### [BASİT DOĞRUSAL VE ÇOKLU REGRESYON ÖRNEKLERİ](#basit-doğrusal-ve-çoklu-regresyon-örnekleri)
-  - ##### [İŞLETME ÖRNEĞİ](#işletme-örneği)
+  - ##### [İŞLETME ÖRNEĞİ](#isletmeornegi)
   - ##### [SAĞLIK ÖRNEĞİ](#sağlık-örneği)
   - ##### [TARIM ÖRNEĞİ](#tarım-örneği)
   - ##### [GAYRİMENKUL ÖRENĞİ](#gayrimenkul-örneği)
-  - ##### [İŞ ÖRNEĞİ](#iş-örneği)
+  - ##### [İŞ ÖRNEĞİ](#isornegi)
   - ##### [SALGIN HASTALIK ÖRNEĞİ](#salgın-hastalık-örneği)
-### [KAYNAKÇA](#kaynakça)
+### [KAYNAKÇA](#kaynakca)
 
 
 
-# DENETİMLİ ÖĞRENME
+# DENETİMLİ ÖĞRENME<a name="denetimliogrenme"></a>
 
 <hr/>
 
-## Denetimli Öğrenme Nedir?
+## Denetimli Öğrenme Nedir?<a name="denetimliogrenmenedir"></a>
 
 <p align="center"><img width="500"  src="https://user-images.githubusercontent.com/73248614/198305611-22537804-b95b-4f3c-bddb-fceaa164417f.jpg">
 
@@ -86,7 +86,7 @@ Bunlara ek olarak en meşhur denetimli öğrenme uygulaması ,ev özelliklerine 
 - LSTAT : Popülasyonda düşük gelirli insanların oranı<br>
 - MEDV : Evin ortalama değeri <br>
 
-# REGRESYON NEDİR?
+# REGRESYON NEDİR?<a name="regresyonnedir"></a>
 
 <hr/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresyon, bir bağımlı değişken (genellikle Y ile gösterilir) ve diğer bağımsız değişkenler arasındaki ilişkinin gücünü ve karakterini belirlemeye çalışan finans, yatırım, makine öğrenmesi ve diğer disiplinlerde kullanılan istatistiksel bir yöntemdir. <br>
@@ -180,7 +180,7 @@ R²= (TOPLAM KARELER TOPLAMI-ARTIK KARELER TOPLAMI) / TOPLAM KARELER TOPLAMI
 ```
 R2  0-1 arasında bir değer alır. R2 değerinin 1’e yakın olması bağımsız değişkenlerin, bağımlı değişkenleri iyi bir şekilde açıkladığını gösterir.
 <br><br>
-## Çoklu Regresyon
+## Çoklu Regresyon<a name="cokluregresyon"></a>
 <br><br>
 Doğrusal regresyon bir bağımsız değişkenin bir bağımlı değişken üzerine etkisini göstermeye yararken, çoklu regresyonda bağımsız değişken sayısı birin üstüne çıkar. 
 En az iki bağımsız değişkenin, bağımlı değişken üzerinde etkilerini göstermeye yarayan analiz yöntemidir.
@@ -217,7 +217,7 @@ Geriye doğru eleme yöntemi tüm değişkenleri içeren bir modelden, fazlalık
 - Modelle alakasız değişkenler modelden çıkarılır.
 - En yüksek P değerine sahip değişkeni bul. Eğer önem değerinden yüksekse (P>SL) bir sonraki adıma ilerle. Eğer düşükse modelin geriye doğru eleme algoritmasını tamamlamıştır.
 - P değeri önem değerinden yüksek değişkeni modelden çıkart ve 3. adıma dön.
-### İleri Doğru Seçme
+### İleri Doğru Seçme<a name="ilerisecme"></a>
 İleri doğru seçme yöntemi geriye doğru eliminasyon yönteminden farklı olarak hiçbir bağımsız değişken içermeyen bir model olarak başlar yolculuğuna. Sonrasında ise hipoteze en yararlı olduğu tahmin edilen değişkenleri alarak kendisini daha büyük bir model haline getirir. İşleyişi ise şöyledir:
 <br>
 - Modele giriş için bir önem değeri belirlenir. (Örneğin SL=0,05)
@@ -229,7 +229,7 @@ Bu yazıda sizleri daha fazla yöntemle karmaşaya boğmak istemiyorum. Çok yö
  
  **bidirectional elimination** anahtar kelimesiyle araştırma yapabilirsiniz.
 
-# REGRESYON ANALİZİ
+# REGRESYON ANALİZİ<a name="regresyonanalizi"></a>
 
 <hr/>
 
@@ -246,7 +246,7 @@ Grafiği temel bir doğrusal regresyonda inceleyerek kesişim, katsayı ve korel
 <br>
 <p align="left"><img width="300"  src="https://user-images.githubusercontent.com/73248614/197738487-79e8723e-a82e-400a-b98a-f2b89c3a9f28.png"> <br>
 
-# REGRESYON ANALİZİ KULLANIM ALANLARI
+# REGRESYON ANALİZİ KULLANIM ALANLARI<a name="regresyonkullanim"></a>
 
 <hr/>
 
@@ -278,7 +278,7 @@ Bir firmanın yöneticisi, gelecek planlaması için reklam harcamaları ile sat
  Hastalıklar için jenerik ilaçlar hazırlamak için farklı ilaç kombinasyonlarını tahmin etmek.
 <br>
 ### Basit Doğrusal Ve Çoklu Regresyon Örnekleri
-#### İşletme Örneği
+#### İşletme Örneği<a name="isletmeornegi"></a>
 İşletmeler, reklam harcamaları ile gelir arasındaki ilişkiyi anlamak için genellikle doğrusal regresyon kullanır.
 <br>
 > revenue= ß0+ß1(ad spending)
@@ -309,13 +309,13 @@ Tarım bilimcileri, gübre ve suyun mahsul verimi üzerindeki etkisini ölçmek 
 #### Gayrimenkul Örneği
 Ev satmak için en iyi zamanı tahmin etmeye yardımcı olacak bir model oluşturmak isteyen bir emlak uzmanısınız. Evleri maksimum satış fiyatından satmak istersiniz, ancak satış fiyatını birden fazla faktör etkileyebilir. Bu değişkenler, diğer faktörlerin yanı sıra evin yaşını, mahalledeki diğer evlerin değerini, devlet okulu sisteminin öğrenci performansına ilişkin nicel ölçümlerini ve yakındaki parkların sayısını içerir.Evlerin maksimum satış fiyatını tahmin etmek için bu dört bağımsız değişkenden bir tahmin modeli oluşturabilirsiniz. Bu faktörlerden herhangi biri katsayı değerleri açısından değişirse değişkenleri ayarlayabilirsiniz.
 
-#### İş Örneği
+#### İş Örneği<a name="isornegi"></a>
 Halka açık bir şirkette hisse senediniz var ve şimdi hisse senedinizi satmak için iyi bir zaman olup olmayacağını bilmek istiyorsunuz. Şirketin karlılığı, şirketin maliyetleri, şirketin rekabeti ve şirketin varlıkları dahil olmak üzere hisse senedi fiyatının değerini çeşitli değişkenler etkileyebilir. Hisse senedini hemen satmanız mı yoksa hisse senedini elinde tutmaya devam etmeniz mi gerektiğine karar vermenize yardımcı olmak için bu dört bağımsız değişkenden bir tahmin modeli oluşturabilirsiniz.
 
 #### Salgın Hastalık Örneği
 Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Mevcut bilinen enfeksiyonlara dayanarak bu hastalığın gelecekteki yayılmasını tahmin etmek istiyorsunuz. Çok sayıda bağımsız değişken, popülasyon büyüklüğü, popülasyon yoğunluğu, hava sıcaklığı, asemptomatik taşıyıcılar ve popülasyonun sürü bağışıklığına ulaşıp ulaşmadığı dahil olmak üzere gelecekteki enfeksiyonların sayısını etkileyebilir. Yordayıcı değişkenlerin katsayı değerlerindeki olası değişiklikleri hesaba katan bir sonucu tahmin etmek için ampirik veriler üzerinde istatistiksel modelleme ve çoklu doğrusal regresyon analizi yapabilirsiniz.
 
-# KAYNAKÇA
+# KAYNAKÇA<a name="kaynakca"></a>
 
 <hr/>
 
