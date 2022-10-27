@@ -1,0 +1,2 @@
+# MachineLearning_SupervisedLearning_Regression
+Makine Öğrenmesi Dersi Denetimli Öğrenme Regresyon Raporu
